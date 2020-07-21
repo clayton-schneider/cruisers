@@ -1,0 +1,281 @@
+.hero {
+  background-image: url('./../imgs/hero.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: bottom right;
+
+  &__content {
+    padding-top: 30rem;
+    width: 65rem;
+
+    h1 {
+      font-size: 5rem;
+      font-weight: bold;
+    }
+
+    p {
+      padding-top: 4rem;
+      color: $text-faded;
+      font-size: 2.5rem;
+      line-height: 1.5;
+    }
+
+    .btn {
+      margin-top: 4rem;
+    }
+  }
+}
+
+.benefits {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: $bg-darker;
+
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+
+  &__content {
+    margin-left: 8rem;
+    max-width: 60rem;
+    color: black;
+
+    background-color: white;
+    padding: 3.5rem;
+    box-shadow: 0 5.4px 3.6px rgba(0, 0, 0, 0.024),
+      0 15px 10px rgba(0, 0, 0, 0.035), 0 36.2px 24.1px rgba(0, 0, 0, 0.046),
+      0 120px 80px rgba(0, 0, 0, 0.07);
+
+    h2 {
+      color: $headline;
+      font-size: 3.6rem;
+      font-weight: bold;
+    }
+
+    .btn {
+      margin-top: 3.5rem;
+    }
+  }
+
+  .benefit {
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+
+    &__text {
+      font-size: 2rem;
+      margin-left: 3rem;
+    }
+  }
+}
+
+.social {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+  &__line {
+    width: 70rem;
+    height: 10rem;
+    background-color: $accent;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-45deg) translate(-10rem, -20rem);
+
+    &:first-of-type {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transform: rotate(-45deg) translate(-15rem, -7rem);
+    }
+  }
+
+  h2 {
+    font-size: 3.6rem;
+    color: $headline;
+    text-align: center;
+    font-weight: normal;
+
+    .underline {
+      font-weight: bold;
+    }
+  }
+
+  &__container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    color: black;
+  }
+
+  &__img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  &__proof {
+    margin-right: 5rem;
+    padding: 2rem;
+
+    max-width: 50rem;
+
+    display: flex;
+    background-color: $bg-darker;
+    box-shadow: 0 5.4px 3.6px rgba(0, 0, 0, 0.024),
+      0 15px 10px rgba(0, 0, 0, 0.035), 0 36.2px 24.1px rgba(0, 0, 0, 0.046),
+      0 120px 80px rgba(0, 0, 0, 0.07);
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &-content {
+      margin-left: 3rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+      line-height: 1.5;
+    }
+  }
+
+  .btn {
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .star {
+    font-size: 2rem;
+    color: $primary;
+  }
+}
+
+.projects {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: $bg-darker;
+
+  clip-path: polygon(0 5vh, 100% 0, 100% 95vh, 0 100%);
+
+  h2 {
+    font-size: 3.6rem;
+    color: $headline;
+    text-align: center;
+  }
+
+  &__container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .project {
+    max-width: 34rem;
+    margin-right: 3rem;
+
+    font-size: 2rem;
+    color: black;
+
+    box-shadow: 0 5.4px 3.6px rgba(0, 0, 0, 0.024),
+      0 15px 10px rgba(0, 0, 0, 0.035), 0 36.2px 24.1px rgba(0, 0, 0, 0.046),
+      0 120px 80px rgba(0, 0, 0, 0.07);
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    img {
+      width: 34rem;
+      height: 20rem;
+      object-fit: cover;
+      object-position: bottom;
+    }
+
+    &__content {
+      padding: 2.5rem;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    p {
+      &:last-of-type {
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  .btn {
+    margin-top: 4rem;
+  }
+}
+
+.services {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  margin-top: -5vh;
+  background-image: linear-gradient(180deg, #194a6a 4.16%, #122531 100%);
+  clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+
+  h2 {
+    font-size: 3.6rem;
+    color: $text;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  &__container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .service {
+    padding: 2rem;
+
+    background-color: white;
+    color: $text-darker;
+    max-width: 35rem;
+    margin-right: 2rem;
+
+    &__top {
+      display: flex;
+      align-items: center;
+      p {
+        width: 100%;
+        font-size: 1.8rem;
+        text-align: center;
+      }
+    }
+
+    &__bottom {
+      margin-top: 1rem;
+      p {
+        text-align: left;
+        font-size: 1.6rem;
+        line-height: 1.5;
+      }
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .btn {
+    margin-top: 4rem;
+  }
+}

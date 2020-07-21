@@ -1,0 +1,61 @@
+.accordion {
+  margin: 2.5rem auto 7.5rem auto;
+  max-width: 60rem;
+  box-shadow: 0 5.4px 3.6px rgba(0, 0, 0, 0.024),
+    0 15px 10px rgba(0, 0, 0, 0.035), 0 36.2px 24.1px rgba(0, 0, 0, 0.046),
+    0 120px 80px rgba(0, 0, 0, 0.07);
+
+  background-color: $accent;
+  color: rgba(0, 0, 0, 0.75);
+
+  &__label,
+  &__content {
+    padding: 2rem;
+  }
+
+  &__label {
+    font-size: 2rem;
+    display: block;
+    color: #ffffff;
+    font-weight: normal;
+    cursor: pointer;
+    position: relative;
+    transition: background 0.1s;
+
+    &:hover {
+      background: rgba(0, 0, 0, 0.1);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+      width: 12px;
+      height: 6px;
+      background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+      background-size: contain;
+      transition: transform 0.4s;
+    }
+  }
+
+  &__content {
+    background-color: #ffffff;
+    line-height: 1.5;
+    font-size: 1.6rem;
+    display: none;
+  }
+
+  &__input {
+    display: none;
+  }
+}
+
+.accordion__input:checked ~ .accordion__content {
+  display: block;
+}
+
+.accordion__input:checked ~ .accordion__label::after {
+  transform: translateY(-50%) rotate(0.5turn);
+}

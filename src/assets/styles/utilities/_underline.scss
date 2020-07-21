@@ -1,0 +1,15 @@
+.underline {
+  position: relative;
+  text-decoration: underline;
+  text-decoration-color: $primary;
+  //   border-bottom: 5px solid $primary;
+  //   &::after {
+  //     content: '';
+  //     position: absolute;
+  //     top: 85%;
+  //     left: 0;
+  //     width: 100%;
+  //     height: 5px;
+  //     background-color: $primary;
+  //   }
+}
