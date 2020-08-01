@@ -27,6 +27,7 @@
       <div class="mobile-nav__links">
         <p>Navigation</p>
 
+        <g-link class="mobile-nav__link" to="/">Home</g-link>
         <g-link class="mobile-nav__link" to="/about">About Us</g-link>
         <g-link class="mobile-nav__link" to="/faqs">Are We A Good Fit?</g-link>
         <g-link class="mobile-nav__link" to="/schedule"
@@ -63,7 +64,7 @@
 
       <div class="mobile-nav__links">
         <p>Navigation</p>
-
+        <g-link class="mobile-nav__link" to="/">Home</g-link>
         <g-link class="mobile-nav__link" to="/about">About Us</g-link>
         <g-link class="mobile-nav__link" to="/faqs">Are We A Good Fit?</g-link>
         <g-link class="mobile-nav__link" to="/schedule"
