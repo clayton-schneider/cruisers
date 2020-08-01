@@ -1,7 +1,9 @@
 <template>
   <Layout>
     <div class="intro container">
-      <g-image src="~/assets/imgs/twin-trans.jpg" width="700" />
+      <div class="intro__img">
+        <g-image src="~/assets/imgs/twin-trans.jpg" width="700" />
+      </div>
 
       <div class="intro__content">
         <h2>You'll have a hard time wiping that smile off your face</h2>
@@ -74,7 +76,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About us',
+    title: 'Our Story',
   },
   data() {
     return {

@@ -6,7 +6,7 @@
       <div class="hero__content">
         <h1>We Build High Performance Cars & Trucks</h1>
         <p>
-          Need your truck lifted? How about your classic car’s engine built?
+          Need your truck lifted? What about your classic car resto-modded?
           Whatever your car needs are we can handle it.
         </p>
         <a class="btn btn--primary" href="/schedule"
@@ -16,7 +16,11 @@
     </div>
 
     <div class="benefits container">
-      <g-image src="~/assets/imgs/benefits.png" width="1000" />
+      <g-image
+        class="benefits__img"
+        src="~/assets/imgs/benefits.png"
+        width="1000"
+      />
 
       <div class="benefits__content">
         <h2>
@@ -47,7 +51,9 @@
             />
           </svg>
 
-          <p class="benefit__text">Get the most out of your engine</p>
+          <p class="benefit__text">
+            Everything in house, even engine building!
+          </p>
         </div>
 
         <div class="benefit">
@@ -72,7 +78,7 @@
             </defs>
           </svg>
 
-          <p class="benefit__text">Dealer certified lifter</p>
+          <p class="benefit__text">Dealer approved lift-kit installer</p>
         </div>
 
         <div class="benefit">
@@ -423,32 +429,20 @@
           <div class="service__bottom">
             <p>
               Service with a twist! We only use performance grade parts on all
-              repairs meaning the best parts are being used on your vehicle
+              repairs meaning the best parts are being used on your vehicle.
             </p>
           </div>
         </div>
 
         <div class="service">
           <div class="service__top">
-            <svg
-              width="25"
-              height="25"
-              viewBox="0 0 25 25"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M22.6562 1.5625H2.34375C1.0498 1.5625 0 2.6123 0 3.90625V21.0938C0 22.3877 1.0498 23.4375 2.34375 23.4375H22.6562C23.9502 23.4375 25 22.3877 25 21.0938V3.90625C25 2.6123 23.9502 1.5625 22.6562 1.5625ZM21.875 9.375H3.125V5.27344C3.125 4.95117 3.38867 4.6875 3.71094 4.6875H21.2891C21.6113 4.6875 21.875 4.95117 21.875 5.27344V9.375Z"
-                fill="#2EAECB"
-              />
-            </svg>
+            <g-image src="~/assets/imgs/snow-plow.png" />
 
-            <p>Window Tinting</p>
+            <p>Snow Plow Install</p>
           </div>
           <div class="service__bottom">
             <p>
-              Pricing Schedule Lorem ipsum dolor, sit amet consectetur
-              adipisicing elit. Porro, odit!
+              We proudly sell and install Phisher snowplows.
             </p>
           </div>
         </div>
@@ -472,8 +466,8 @@
           </div>
           <div class="service__bottom">
             <p>
-              Pricing Schedule Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit. Ullam, explicabo?
+              Preserve your investment by protecting against rust and corrosion.
+              We offer multiple prep and coverage packages starting at $300.
             </p>
           </div>
         </div>
@@ -504,8 +498,68 @@
           </div>
           <div class="service__bottom">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo,
-              soluta. Necessitatibus
+              We can work on all non-warranty maintenance to ensure your vehicle
+              stays running smooth. We also offer small fleet management for up
+              to 1 ton trucks.
+            </p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service__top">
+            <svg
+              width="32"
+              height="25"
+              viewBox="0 0 32 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M15.6225 18.75H6.2475V10.9375H3.1225V23.4375C3.1225 24.3018 3.82074 25 4.685 25H17.185C18.0493 25 18.7475 24.3018 18.7475 23.4375V10.9375H15.6225V18.75ZM30.9838 6.94336L26.8188 0.693359C26.5258 0.258789 26.0375 0 25.5151 0H5.72992C5.20746 0 4.71918 0.258789 4.43109 0.693359L0.266055 6.94336C-0.427304 7.9834 0.314883 9.375 1.56488 9.375H29.685C30.9301 9.375 31.6723 7.9834 30.9838 6.94336ZM24.9975 24.2188C24.9975 24.6484 25.3491 25 25.7787 25H27.3412C27.7709 25 28.1225 24.6484 28.1225 24.2188V10.9375H24.9975V24.2188Z"
+                fill="#2EAECB"
+              />
+            </svg>
+
+            <p>Full Retail Store</p>
+          </div>
+          <div class="service__bottom">
+            <p>
+              Stop by for our full retail store with over 1100 brands of
+              products and accessories. We stock everything, including high
+              performance lighting, stereos, remote starters, and alarm systems.
+            </p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="service__top">
+            <svg
+              width="25"
+              height="25"
+              viewBox="0 0 25 25"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22.6562 1.5625H2.34375C1.0498 1.5625 0 2.6123 0 3.90625V21.0938C0 22.3877 1.0498 23.4375 2.34375 23.4375H22.6562C23.9502 23.4375 25 22.3877 25 21.0938V3.90625C25 2.6123 23.9502 1.5625 22.6562 1.5625ZM21.875 9.375H3.125V5.27344C3.125 4.95117 3.38867 4.6875 3.71094 4.6875H21.2891C21.6113 4.6875 21.875 4.95117 21.875 5.27344V9.375Z"
+                fill="#2EAECB"
+              />
+            </svg>
+
+            <p>Window Tinting</p>
+          </div>
+          <div class="service__bottom">
+            <p>
+              We offer window tinting from 5% to 55%. Window tinting is by
+              appointment only. Prices start at:
+              <br />
+              - 2 Door: $120
+              <br />
+              - 5 Window: $220
+              <br />
+              - SUV: $270
+              <br />
+              - Windshield Strip: $35
             </p>
           </div>
         </div>
@@ -532,7 +586,7 @@ export default {
     Footer,
   },
   metaInfo: {
-    title: 'Hello, world!',
+    title: 'Vehicle Performance Experts',
   },
   data() {
     return {

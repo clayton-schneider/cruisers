@@ -30,7 +30,7 @@
             </clipPath>
           </defs>
         </svg>
-        <p>123-456-789</p>
+        <p>203-744-TUNE</p>
       </div>
       <div class="footer__contact">
         <svg
@@ -46,7 +46,7 @@
           />
         </svg>
 
-        <p>contact@cruisersmotorsports.com</p>
+        <p>cruisers@comcast.net</p>
       </div>
     </div>
   </div>
@@ -82,7 +82,7 @@
             </clipPath>
           </defs>
         </svg>
-        <p>123-456-789</p>
+        <p>203-744-TUNE</p>
       </div>
       <div class="footer__contact">
         <svg
@@ -98,7 +98,7 @@
           />
         </svg>
 
-        <p>contact@cruisersmotorsports.com</p>
+        <p>cruisers@comcast.net</p>
       </div>
     </div>
   </div>

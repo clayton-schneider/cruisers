@@ -21,7 +21,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'FAQs',
+    title: 'Are We A Good Fit?',
   },
   data() {
     return {
@@ -37,24 +37,9 @@ export default {
             'Any lift project typically will take 1-3 days. The more complex the lift the closer it will take to 3 days',
         },
         {
-          question: 'How long will it take to lift my truck?',
+          question: 'Will modifying my vehicle void my warranty?',
           answer:
-            'Any lift project typically will take 1-3 days. The more complex the lift the closer it will take to 3 days',
-        },
-        {
-          question: 'How long will it take to lift my truck?',
-          answer:
-            'Any lift project typically will take 1-3 days. The more complex the lift the closer it will take to 3 days',
-        },
-        {
-          question: 'How long will it take to lift my truck?',
-          answer:
-            'Any lift project typically will take 1-3 days. The more complex the lift the closer it will take to 3 days',
-        },
-        {
-          question: 'How long will it take to lift my truck?',
-          answer:
-            'Any lift project typically will take 1-3 days. The more complex the lift the closer it will take to 3 days',
+            'Approved products and accessories will not void your warranty. Products that would void your warranty will usually come with their own warranty.',
         },
       ],
     };
