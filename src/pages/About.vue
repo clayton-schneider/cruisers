@@ -117,7 +117,18 @@ export default {
     },
   },
   mounted() {
-    this.count();
+    const nums = document.querySelector('.numbers__container');
+    const callback = (entries, self) => {
+      if (entries[0].intersectionRatio > 0.3) {
+        this.count();
+        self.unobserve(entries[0].target);
+      }
+    };
+
+    const observer = new IntersectionObserver(callback, {
+      threshold: 0.4,
+    });
+    observer.observe(nums);
   },
 };
 </script>
