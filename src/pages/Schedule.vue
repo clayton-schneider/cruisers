@@ -4,7 +4,7 @@
 
     <div
       class="calendly-inline-widget"
-      data-url="https://calendly.com/simply-sprout/cruisers-consultation"
+      data-url="https://calendly.com/cruisers/cruisers-consultation"
       style="min-width:320px;height:630px;"
     ></div>
     <script
