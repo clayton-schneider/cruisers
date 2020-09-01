@@ -340,16 +340,16 @@
           v-for="(social, index) in socials"
           :key="social.name"
         >
-          <g-image
+          <!-- <g-image
             class="social__img"
             v-if="index === 0"
             src="~/assets/imgs/social-1.jpg"
-          />
-          <g-image
+          /> -->
+          <!-- <g-image
             class="social__img"
             v-if="index === 1"
             src="~/assets/imgs/social-2.jpg"
-          />
+          /> -->
           <div class="social__proof-content">
             <h4>{{ social.name }}</h4>
             <p>{{ social.text }}</p>
@@ -406,7 +406,7 @@
     </div>
 
     <div class="services container">
-      <h2>We Do More Than Build Baddass Cars</h2>
+      <h2>We Do More Than Build Badass Cars</h2>
 
       <div class="services__container">
         <div class="service">
