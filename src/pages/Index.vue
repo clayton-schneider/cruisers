@@ -442,7 +442,7 @@
           </div>
           <div class="service__bottom">
             <p>
-              We proudly sell and install Phisher snowplows.
+              We proudly sell and install Fisher snowplows.
             </p>
           </div>
         </div>
